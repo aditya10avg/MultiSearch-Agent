@@ -42,7 +42,10 @@ This project demonstrates the use of LangChain tools to create a multi-tool agen
 
 1. Run the agent.ipynb.
 2. Enter the query when you run that cell.
-3. The agent will:
+  Reference Image.
+ ![Screenshot from 2025-01-14 16-48-53](https://github.com/user-attachments/assets/5cdfdd01-ff46-4ddb-a8f5-fb2811f6323b)
+
+4. The agent will:
 
   - Retrieve relevant data using the available tools.
   - Display the results in a structured format. 
