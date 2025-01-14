@@ -40,10 +40,35 @@ This project demonstrates the use of LangChain tools to create a multi-tool agen
 
 ## How to Use
 
+1. Run the agent.ipynb.
+2. Enter the query when you run that cell.
+3. The agent will:
+
+  - Retrieve relevant data using the available tools.
+  - Display the results in a structured format. 
 
 
+## Tools and Modules
+
+1. Wikipedia Search
+API Wrapper: WikipediaAPIWrapper
+Tool: WikipediaQueryRun
+Description: Fetches concise information from Wikipedia based on user queries.
 
 
+2. LangChain Documentation Search
+Document Loader: WebBaseLoader
+Vector Store: FAISS with OpenAIEmbeddings
+Retriever Tool: Allows search functionality within LangChain documentation.
+
+4. Arxiv Research Papers
+API Wrapper: ArxivAPIWrapper
+Tool: ArxivQueryRun
+Description: Retrieves top research papers from Arxiv related to the user query.
+
+## Notes
+Verbose Mode: Enabled for debugging. Disable it by setting verbose=False in the AgentExecutor.
+Custom Prompt: The agent uses a custom prompt loaded from LangChain Hub.
 
 
 ![Screenshot from 2025-01-14 16-48-41](https://github.com/user-attachments/assets/6a39097e-dbf5-4aa6-ab29-d19d2f867197)![Screenshot from 2025-01-14 16-48-53](https://github.com/user-attachments/assets/5cdfdd01-ff46-4ddb-a8f5-fb2811f6323b)
