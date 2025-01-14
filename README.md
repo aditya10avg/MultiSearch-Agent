@@ -67,8 +67,8 @@ Tool: ArxivQueryRun
 Description: Retrieves top research papers from Arxiv related to the user query.
 
 ## Notes
-Verbose Mode: Enabled for debugging. Disable it by setting verbose=False in the AgentExecutor.
-Custom Prompt: The agent uses a custom prompt loaded from LangChain Hub.
+1. Verbose Mode: Enabled for debugging. Disable it by setting verbose=False in the AgentExecutor.
+2. Custom Prompt: The agent uses a custom prompt loaded from LangChain Hub.
 
 ## Screenshots of its working.
 ![Screenshot from 2025-01-14 16-48-41](https://github.com/user-attachments/assets/6a39097e-dbf5-4aa6-ab29-d19d2f867197)
