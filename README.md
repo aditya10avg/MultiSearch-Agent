@@ -64,7 +64,7 @@ Document Loader: WebBaseLoader
 Vector Store: FAISS with OpenAIEmbeddings
 Retriever Tool: Allows search functionality within LangChain documentation.
 
-4. Arxiv Research Papers
+3. Arxiv Research Papers
 API Wrapper: ArxivAPIWrapper
 Tool: ArxivQueryRun
 Description: Retrieves top research papers from Arxiv related to the user query.
@@ -72,6 +72,12 @@ Description: Retrieves top research papers from Arxiv related to the user query.
 ## Notes
 1. Verbose Mode: Enabled for debugging. Disable it by setting verbose=False in the AgentExecutor.
 2. Custom Prompt: The agent uses a custom prompt loaded from LangChain Hub.
+
+
+## Acknowledgments
+LangChain Team for providing robust tools for building this agent. Langchain is really helpful.
+
+
 
 ## Screenshots of its working.
 ![Screenshot from 2025-01-14 16-48-41](https://github.com/user-attachments/assets/6a39097e-dbf5-4aa6-ab29-d19d2f867197)
